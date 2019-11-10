@@ -5,6 +5,6 @@ def self.highest_rating
 end
 
 def self.most_popular_show 
-  self.find_by(rating: highest_rating)
+  self.where(rating: highest_rating).first
 end
 end
