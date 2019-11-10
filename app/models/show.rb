@@ -13,4 +13,25 @@ end
 def self.lowest_rating 
   self.minimun(:rating)
 end
+
+def self.least_popular_show 
+  self.find_by(rating: lowest_rating)
 end
+
+def self.ratings_sum 
+
+end 
+
+def self.popular_shows
+
+end 
+
+def self.shows_by_alphabetical_order
+  
+end 
+
+end
+
+
+
+
