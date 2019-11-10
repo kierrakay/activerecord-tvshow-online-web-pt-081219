@@ -6,6 +6,6 @@ end
 
 def self.most_popular_show 
   self.maximum(:rating)
-  self.where(1)
+  self.where(:)
 end
 end
