@@ -27,7 +27,7 @@ def self.popular_shows
 end 
 
 def self.shows_by_alphabetical_order
-  self.order
+  self.order(asc)
 end 
 
 end
