@@ -5,7 +5,6 @@ def self.highest_rating
 end
 
 def self.most_popular_show 
-  self.maximum(:rating)
   self.where(rating: highest_rating)
 end
 end
