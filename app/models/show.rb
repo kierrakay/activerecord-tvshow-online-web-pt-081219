@@ -9,4 +9,6 @@ def self.most_popular_show
   #self.where(rating: highest_rating) returns aray but we want one instance thats why we have .first above
   self.find_by(rating: highest_rating)
 end
+
+def self
 end
