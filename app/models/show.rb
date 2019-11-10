@@ -27,7 +27,7 @@ def self.popular_shows
 end 
 
 def self.shows_by_alphabetical_order
-  self.order(:shows)
+  self.order(shows: :desc)
 end 
 
 end
