@@ -1,27 +1,27 @@
-def highest_rating 
-  Show.maximum(:rating)
-end
+# def highest_rating 
+#   Show.maximum(:rating)
+# end
 
-def most_popular_show
+# def most_popular_show
   
-end
+# end
 
-def lowest_rating 
+# def lowest_rating 
 
-end 
+# end 
 
-def least_popular_show
+# def least_popular_show
   
-end 
+# end 
 
-def ratings_sum 
+# def ratings_sum 
   
-end 
+# end 
 
-def popular_show 
+# def popular_show 
   
-end 
+# end 
 
-def shows_by_alphabetical_order
+# def shows_by_alphabetical_order
   
-end 
+# end 
