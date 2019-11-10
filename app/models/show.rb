@@ -11,7 +11,7 @@ def self.most_popular_show
 end
 
 def self.lowest_rating 
-  self.minimun(:rating)
+  self.minimum(:rating)
 end
 
 def self.least_popular_show 
